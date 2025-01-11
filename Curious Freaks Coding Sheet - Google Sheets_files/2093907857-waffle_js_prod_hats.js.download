@@ -1,0 +1,6 @@
+us("hats");
+function JQr(a,c){on.call(this);this.ma=a;this.ea=c}A(JQr,on);JQr.prototype.initialize=function(){Uz.Ib().init(this.ma);var a=Zj(this.ea,"docs-trgthnt");a&&Vz(Uz.Ib(),a,this.ea)};function KQr(){ss.apply(this,arguments)}A(KQr,ss);KQr.prototype.ea=function(){return JQr};Ds("hats",KQr);
+oO();
+// Google Inc.
+
+//# sourceMappingURL=waffle_js_prod_hats.sourcemap

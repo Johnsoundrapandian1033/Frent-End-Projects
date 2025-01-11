@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+.john{
+    margin : 3% 3%;
+    border:3px solid black;
+    padding:3% 3%;
+    text-align: justify;
+    background-color:lightskyblue;
+}
+body{
+    background-color:aquamarine
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin:2% 18%;
+    height: auto;
+    width:800px;
+    background-color: rgb(245, 215, 220);
+    border:2px solid brown;
+}
+th,td{
+    border:2px solid black;
+    height: 40px;
+    text-align: center;
+}
+input[placeholder]{
+    text-align: center;
+}
+button{
+    height:40px;
+    width:300px;
+    margin:2% 3.7%;
+    background-color: lightsteelblue;
+}
+tr:nth-child(even){
+    background-color: rgb(247, 247, 235);
+}
+#result{
+   background-color: rgb(185, 247, 185);
+   text-size:1.5em;
+   text-align: center;
+   text-align: justify;
+   border:2px solid black;
+   height:auto;
+   padding:2px 2px;
+   margin:2% 35%;
+}

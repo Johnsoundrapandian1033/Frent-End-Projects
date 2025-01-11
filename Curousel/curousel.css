@@ -1,0 +1,51 @@
+h1{
+    
+    font-style: italic;
+    text-align: center;
+}
+img{
+    border-radius: 75px 75px;
+    margin:0% 43%;
+}
+#a1{
+    margin : 1% auto;
+    text-align: center;
+    font-size: 1.33em;
+}
+#a2{
+    margin : 1% auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+#a3{
+    padding:30px;
+    text-align:center;
+    text-align: justify;
+    width:35%;
+    height:auto;
+    margin: 0% 30%;
+    border:3px solid black;
+}
+#a4{
+    text-align: center;
+    font-size:2em;
+}
+button{
+    width: 60px ;
+    height:40px;
+    position:fixed;
+    transform: translateY(-100%);
+    cursor: pointer;
+}
+#nextbtn{
+    right: 10px;
+}
+#prevbtn{
+    left:10px;
+}
+#jh{
+    border:3px solid black;
+}
+body{
+    -moz-animation-direction:reverse;
+}

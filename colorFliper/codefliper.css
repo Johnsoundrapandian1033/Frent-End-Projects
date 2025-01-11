@@ -1,0 +1,42 @@
+html,head,body{
+    font-family:'Times New Roman', Times, serif;
+    margin :0;
+}
+
+#john{
+    text-align: left;
+    font-size:1em;
+    color:crimson;
+    margin-right:5px;
+    margin-left:15px;
+    margin-top:3px;
+    margin-bottom:5px;
+    margin-top: 3px;
+    
+    border-bottom: 3px solid;
+}
+#color{
+    color:brown;
+    float: right;
+    margin-right:0;
+}
+
+#soundar,#pandian{
+    height: 90vh;
+    width:100vw;
+    display : inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#click{
+    color:black;
+    background-color: rgb(137, 238, 238);
+    padding : 20px 80px;
+    border : 1px solid black;
+    letter-spacing: 5px;
+    border-radius:15px;
+    font-size : 15px;
+    cursor :progress;
+
+    
+}

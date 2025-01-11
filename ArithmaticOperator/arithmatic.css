@@ -1,0 +1,61 @@
+html,head{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+h1{
+    font-style: oblique;
+    text-decoration:underline;
+}
+
+body{
+    font-size:2em;
+    border:3px solid black;
+    padding: 20px ;
+    margin:10px;
+    box-shadow: 2px 2px 50px 2px lightslategray;
+    background-color: lightcyan;
+}
+p{
+    border:3px solid rgb(40, 66, 1);
+    text-shadow :2px 4px 2px lightslategray;
+    text-align:justify;
+    padding:20px;
+    border-radius:10px 20px;
+    background-color: rgb(185, 211, 210);
+    box-shadow: 1px 1px 1px 10px lightgray;
+}
+p::first-letter{
+    font-size: 1.5em;
+}
+ul{
+    background-color: aquamarine;
+    border-radius: 10px 20px;
+    box-shadow:1px 1px 20px;
+}
+li{
+    background-color: rgb(243, 187, 235);
+    color:darkblue;
+    margin:5px;
+    border-radius: 10px 10px;
+}
+div[id ="john"]{
+    padding: 40px;
+    background-color: lightgoldenrodyellow;
+    border:3px solid rgb(1, 78, 65);
+    box-shadow: 1px 1px 1px 10px lightgray;
+    border-radius:20px 30px;
+}
+button{
+    background-color: lightslategray;
+    float: center;
+    box-sizing: 4px 12px;
+    border:2px solid black;
+    box-shadow:1px 1px 1px 4px lightsteelblue;
+}
+input{
+    background-color: lightgreen;
+    float : center;
+    border:2px solid black;
+    box-shadow:1px 1px 1px 4px lightslategray;
+    
+}

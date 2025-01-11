@@ -1,0 +1,27 @@
+
+h1{
+    text-align:center;
+}
+.john{
+    margin : 2% 35%;
+    border:3px solid black;
+    padding:3% 3%;
+    text-align: justify;
+    background-color:#e5e1b9;
+}
+body{
+    margin:15% auto;
+    background-color:rgb(228, 186, 148)
+}
+a{
+    color: black;
+    
+}
+
+button{
+    height:40px;
+    width:80px;
+    margin:2% 10%;
+    background-color: rgb(230, 183, 220);
+}
+

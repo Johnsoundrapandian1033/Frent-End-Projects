@@ -1,0 +1,71 @@
+.john{
+    display:none;
+}
+.jp{
+    max-width:1000px;
+    position:absolute;
+    width:100%;
+}
+img{
+    vertical-align:center;
+    height:400px;
+    
+    
+}
+h1{
+    text-align:center;
+}
+body{
+    margin:2% 12%;
+    background-color:rgb(208, 230, 238);
+}
+.forward,.backward{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    padding:16px;
+    margin-top:-25px;
+    font-size:24px;    
+}
+.forward:hover,.backward:hover{
+    background-color:rgb(66, 57, 57);
+}
+.forward{
+    right:0;
+}
+.dot{
+    
+    cursor:pointer;
+    border-radius: 50%;
+    height:15px;
+    width:15px;
+    display:inline-block;
+    margin:0px 2px;
+    border:1px solid black;
+    
+
+    /* background-color:aqua; */
+}
+.soundar{
+    text-align:center;
+}
+.active,.dot:hover{
+    background-color: rgb(39, 36, 36);
+}
+.dot:active{
+    background-color: black;
+}
+.time{
+    padding:12px 18px;
+    position:absolute;
+    color:white;
+}
+.text{
+    padding:12px 18px;
+    position:absolute;
+    text-align: center;
+    bottom:20px;
+    width:100%;
+    color:white;
+}

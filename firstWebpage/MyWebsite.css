@@ -1,0 +1,60 @@
+*{
+    box-sizing:border-box;
+}
+p{
+    font-size:18px;
+}
+#first{
+    background-color: rgba(42, 184, 136, 0.938);
+    color : white;
+    text-align: center;
+    padding:80px;
+    border:2px solid black;
+}
+#second{
+    background-color:#333;
+    overflow : hidden;
+    border : 2px solid #000000;
+}
+#second>#ang{
+    float:right;
+   }
+#second a{
+    text-decoration: none;
+    display:block;
+    color : white;
+    padding:14px 20px;
+    float:left;
+    text-align:center;
+}
+ #second a:hover{
+    background-color:white;
+    color:black;
+}
+#three {
+    background-color: rgb(221, 225, 230);
+    border : 2px solid black;
+    overflow:hidden;
+
+} 
+#three #th{
+    width:60%;
+}
+#three .thr{
+    height : 60px;
+    background-color: lightslategray;  
+    width:100%;
+    text-indent:20px;
+    margin:10px;
+}
+#four img{
+    width:100%;
+    border : 2px solid black;
+}
+#five{
+    background-color: lightslategray;
+    text-align:center;
+    padding:40px;
+    border : 2px solid black;
+
+}

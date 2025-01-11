@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>  Slide Overlay </title>
+        <style>
+            .first{
+                position:absolute;
+                overflow: hidden;
+                width:50%;
+                height:50%;
+               // padding : 20%;
+            }
+            .third{
+                white-space:nowrap;
+                font-size:20px;
+                overflow: hidden;
+                position : absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50% , -50%);
+                -ms-transform: translate(-50% ,-50%);
+            }
+            .second{
+                position : absolute;
+                overflow:hidden;
+                left:0%;
+                right:0%;
+                bottom:0%;
+                top:0%
+                width:100%;
+                height:0%;
+                background-color:aqua;
+                transition:1s ease;
+            }
+            .first:hover .second{
+                //width:100%;
+                //top:0;
+                height:100%;
+            } 
+           .img{
+                height:auto;
+                width:50%;
+                display:block;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="first">
+            <img src="../1000006528.jpg" alt="john" class="img">
+            <div class="second">
+                 <div class="third">
+                    <span>hello john</span>
+                 </div>
+            </div>
+        </div>
+    </body>
+</html>

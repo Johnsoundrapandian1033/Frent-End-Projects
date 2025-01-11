@@ -1,0 +1,45 @@
+html,head,body{
+    margin : 0;
+    family-font:"non-sherif"
+}
+h1{
+    font-size: normal;
+    font-style:oblique;
+    font-stretch:extended;
+    font-transform:capitalize;
+    text-decoration:underline 2px;
+    text-align: center;
+    letter-spacing:1.5px;
+}
+button{
+    line-height: 1vh;
+    border-color: rgb(1, 31, 31);
+    padding: 10px;
+    align-items: center;
+    float:center;
+    background-color:lightgreen
+    
+}
+label{
+    padding-bottom:5%;
+    color:rgb(83, 71, 2);
+
+}
+input{
+    background-color:rgb(49, 1, 68)
+    
+}
+div[id="wrapper"]{
+    width :300px;
+    height:200px;
+    background-color: rgb(245, 247, 169);
+    border-style: solid black 2px;
+}
+body{
+
+    border-line:20px;
+    padding:100px;
+   background-color: lightgray;
+    -moz-b: border-box 100px 100px;
+}
+

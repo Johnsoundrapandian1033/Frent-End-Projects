@@ -1,0 +1,75 @@
+html{
+    background-image:url("../WhatsApp\ Image\ 2023-05-31\ at\ 12.27.29\ AM\ \(1\).jpeg");
+    padding-left : 140px;
+    padding-top:60px;
+    box-sizing:border-box;
+    background-position: 1500px;
+}
+body{ 
+    margin : 10%;
+    box-sizing: content-box;
+    display:list-item;
+    width : 768px;
+    height:400px;
+    padding : 50px;
+      color:white;
+    margin :0px 0px 0px 100px;
+    background-image:linear-gradient(to top right, rgba(53, 3, 75, 0.938) , rgba(23, 2, 70, 0.774),rgba(1, 39, 65, 0.979));
+}
+img{
+    height : 200px;
+    width:150px;
+    float : right;
+    padding:90px 20px 5px 10px;;
+    opacity:0.6;
+    background-image: blueviolet, url("../1000006528.jpg");
+}
+#a2{
+    padding : 0px 0px 0px 36px;
+}
+p{
+   color: rgb(158, 154, 154);
+   width:550px;
+}
+#second{
+    padding:0px 10px 0px 0px;
+}
+#a3{
+    border:1px solid white;
+    padding:8px;
+    border-radius:8px;
+ 
+}
+#first .c1{
+    text-decoration:none;
+    color:rgb(158, 154, 154);
+    margin:0px 10px; 
+    font-size:16px;
+}
+#a1{
+    padding : 0px 15px 0px 60px;
+    color:blue;
+    text-decoration: none;
+    font-size:16px;
+}
+#first{
+    color:white;
+    display:block;
+    font-size:22px;
+
+}
+button{
+    color:white;
+    margin : 0px 12px 0px 0px;
+    padding:10px;
+    border-radius: 8px;
+}
+#No1{
+    background-color: rgb(53, 120, 141);
+    border:none;
+}
+#No2{
+    background-color: rgb(38, 2, 54);
+    color : white;
+    border: 0.1px solid white;
+}

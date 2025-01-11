@@ -1,0 +1,39 @@
+ .soundar{
+    display:inline-block;
+    text-align: center;
+    margin:1% 41.9%;
+    
+ }
+ head{
+    background-color: aquamarine;
+ }
+ h1{
+    text-align: center;
+    background-color: aquamarine;
+    
+ }
+ .stop{
+    font-size: 32px;
+ }
+ #pandian{
+    /* margin:2% 42.8%; */
+    display: inline-block;
+    padding:3% 43%;
+ }
+ button{
+    width:60px;
+    height:30px;
+    background-color: rgb(197, 217, 238);
+    border:1px solid black;
+    
+ }
+ body{
+    margin:10% 20%;
+    border:3px solid black;
+    background-color: lightgrey;
+    
+ }
+ .john{
+    background-color: rgb(216, 185, 245);
+ }
+ 

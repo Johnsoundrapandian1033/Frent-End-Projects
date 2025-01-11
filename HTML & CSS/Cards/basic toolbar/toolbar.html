@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Toolbar</title>
+        <style>
+            .first{
+                text-align:center;
+                font-size:20px;
+            }
+            .span{
+                position:relative;
+                display:inline;
+                text-decoration: 2px dotted underline ;
+            }
+            .second{
+
+            }
+            .find{
+                visibility: hidden;
+                background-color:black;
+                color:white;
+                border:1px solid black;
+                padding:5px 0px;
+                position:absolute;
+                border-radius:8px;
+                width:125px;
+                z-index:1;
+                bottom:92%;
+                left:50%;
+                margin-left:-60px;
+            }
+            .second .find::after{
+                content:"john";
+                position:absolute;
+                top:100%;
+                left:50%;
+                border-style:solid;
+                border-width:5px;
+                margin-left:-5px;
+                border-color:transparent black  transparent transparent;
+            }
+            .second:hover .find{
+                visibility:visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="first">
+            hi hello I am John Soundrapandian .I
+            <div class="second"><br>
+                <span class="span">hover here</span>
+                <span class ="find" > nee yaaru </span>
+            </div>
+        </div>
+    </body>
+</html>

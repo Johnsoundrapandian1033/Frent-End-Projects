@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+    <head>
+         <link rel = "stylesheet" href ="convert.css"><strong></strong></l>
+    </head>
+    <body>
+        <div id = "wrapper">
+            <h1><strong>cm to inches</strong></h1>
+            <div class = "inputdiv">
+                <label for="input">Length </label>
+                <input type  = "text" id ="input" placeholder = "length of cm">
+            </div>
+            <div>
+              <button type ="submit" onclick = "convert()">convert</button>
+            </div>
+            <div id = "result">
+            </div>
+        </div>
+        <script>
+           function convert(){
+            let val = Number(document.getElementById("input").value)
+            let change = val/2.5
+            let result  = document.getElementById("result")
+             result.innerHTML = change.toFixed(2)+" inches"
+           }
+        </script>
+    </body>
+</html>

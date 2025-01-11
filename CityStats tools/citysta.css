@@ -1,0 +1,13 @@
+html,head,body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+}
+head{
+    color:rgb(83, 17, 145);
+    background-color: rgba(58, 167, 167, 0.712);
+    text-align:center;
+}
+body{
+    background-color: aqua;
+    color:aqua;
+}

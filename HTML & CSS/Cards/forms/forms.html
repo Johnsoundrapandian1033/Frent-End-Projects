@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+</head>
+<body>
+   <form action="sighnin.html" mathod="get">
+   		<label>Enter UserId :</label><input id ="first" type="text" name="userid"><br><br>
+   		<label>Enter Password :</label><input id = "second" type="text" name="userpassword" onclick="idCheck()"><br><br>
+   		<label>Confirm Password :</label><input id = "third" type = "text" name="confirmpassword" onclick="passwordCheck()"><br><br>
+        <input type="checkbox" onclick="confirmCheck()">male<br>
+        <input type="checkbox" onclick="confirmCheck()">Female<br>
+        <button id="button" type="submit" style = "display:none;" >finish</button>
+   </form>
+   <input type="date">
+   <script>
+   		function passwordCheck(){
+	   		var password = document.getElementById("second").value;
+	   		//var confirm = document.getElementById("third").value;
+	        //document.getElementById("second").style.border = "1px solid green";
+	        var special = 0, letters = 0, capital = 0;
+	        
+	        for(let i = 0; i < password.length; i++){
+	            letters++;
+	            if (password.charAt(i) >= 'A' && password.charAt(i) <= 'Z') capital++;
+	            else if ((password.charAt(i) >= 'a' && password.charAt(i) <= 'z') || (password.charAt(i) >= '0' && password.charAt(i) <= '9')) continue;
+	            else special++;
+	        }
+	         if( (letters >= 8 && letters <= 15) && special <= 1 && capital <= 1){
+	        	 document.getElementById("second").style.border = "1px solid green";
+	         }
+	         else document.getElementById("second").style.border = "1px solid red";
+   		    
+        }
+   		function confirmCheck(){
+   			var password = document.getElementById("second").value;
+	   		var confirm = document.getElementById("third").value;
+	   		if( password === confirm ){
+	   			document.getElementById("third").style.border = "1px solid green";
+	   			if( document.getElementById("second").style.borderColor == "green" && document.getElementById("first").style.borderColor == "green"){
+	   				document.getElementById("button").style.display = "block";
+	   			}
+	   			
+	   		}
+	   		else document.getElementById("third").style.border = "1px solid red" ;
+	
+   		}
+        function idCheck(){
+        	var username = document.getElementById("first").value;
+        	var index = username.indexOf("@gmail.com");
+        	if(index == -1){
+        		document.getElementById("first").style.border = "1px solid red";
+        	}
+        	else document.getElementById("first").style.border = "1px solid green";
+        }
+
+   </script>
+</body>
+</html>
