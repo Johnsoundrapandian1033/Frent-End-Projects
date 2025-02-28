@@ -1,0 +1,62 @@
+@media screen and (man-width:769px){
+    body{
+    padding:50px 200px;
+    text-align : center;
+    color:white;
+    background-color: rgb(208, 133, 252);
+    }
+}
+h1{
+    color:yellow;
+}
+input{
+    color: black;
+    margin-bottom:15px;
+    height:30px;
+    width:300px;
+    background-color: aquamarine;
+}
+ul{
+    align-items: center;
+    margin-right:40px;
+    list-style-position: inside;
+}
+.delete-btn{
+    margin-left: 20px;
+    background-color: orange;
+    width:100px;
+}
+.delete-btn:hover{
+    background-color: orangered;
+}
+.delete-btn:active{
+    background-color: gold;
+}
+::placeholder{
+    color:blue;
+    text-align: center;
+}
+button{
+    height : 30px;
+    width : 150px;
+    background-color: rgb(100, 240, 100);
+}
+.container{
+    background-color: black;
+}
+#clearAll{
+    background-color: rgb(248, 85, 85);
+    margin-bottom:20px;
+}
+#clearAll:hover{
+    background-color: rgb(245, 7, 7);
+}
+#addExpense:hover{
+    background-color: rgb(46, 250, 5);
+}
+#clearAll:active{
+    background-color: rgb(246, 248, 140);
+}
+#addExpense:active{
+    background-color: rgb(7, 178, 245);
+}
